@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flow1">
+  <test name="Test In Chrome">
+      <parameter name="browser" value="CRM" />
+    <classes>
+      <class name="com.flyrobe.Config"/>
+      <class name="com.flyrobe.Test1"></class>
+    </classes>
+  </test>
+  
+  <!-- <test name="Test In FireFox">
+      <parameter name="browser" value="FFX" />
+    <classes>
+      <class name="com.flyrobe.Config"/>
+      <class name="com.flyrobe.Test1"></class>
+    </classes>
+  </test> -->
+
+  <test name="Test In Chrome1">
+      <parameter name="browser" value="CRM" />
+    <classes>
+      <class name="com.flyrobe.Config"/>
+      <class name="com.flyrobe.Test2"></class>
+    </classes>
+  </test>
+</suite>
